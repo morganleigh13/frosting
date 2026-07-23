@@ -1,0 +1,22 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "main": "users.js",
+  "scripts": {
+    "seed:users": "node seedUsers.js",
+    "seed:products": "node seedProducts.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@faker-js/faker": "^9.9.0"
+  },
+  "dependencies": {
+    "argon2": "^0.44.0",
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7"
+  }
+}

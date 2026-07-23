@@ -1,0 +1,79 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: all;
+}
+
+
+@plugin "daisyui/theme" {
+  name: "frosting";
+  default: true;
+  prefersdark: true;
+  color-scheme: "dark";
+  --color-base-100: #111111;
+  --color-base-200: #444444;
+  --color-base-300: #A0A0A0;
+  --color-base-content: oklch(94% 0.028 342.258);
+  --color-primary: oklch(42.4% 0.259 294.400);
+  --color-primary-content: #000000;
+  --color-secondary: #000000;
+  --color-secondary-content: #FFFFFF;
+  --color-accent: #FF007F;
+  --color-accent-content: #FFFFFF;
+  --color-neutral: #808080;
+  --color-neutral-content: oklch(98% 0.102 247.839);
+  --color-info: #3ABFF8;
+  --color-info-content: #606066;
+  --color-success: #36D399;
+  --color-success-content: #A0A0A0;
+  --color-warning: #FBBF24;
+  --color-warning-content: oklch(0.9% 0.368 0);
+  --color-error: oklch(63% 0.237 25.331);
+  --color-error-content: oklch(93% 0.032 17.717);
+  --radius-selector: 1rem;
+  --radius-field: 1rem;
+  --radius-box: 1rem;
+  --size-selector: 0.3125rem;
+  --size-field: 0.3125rem;
+  --border: 2px;
+  --depth: 1;
+  --noise: 1;
+}
+
+
+
+@plugin "daisyui/theme" {
+  name: "vanilla";
+  default: false;
+  prefersdark: true;
+  color-scheme: "dark";
+  --color-base-100: #FFFFFF;
+  --color-base-200: #F2F2F2;
+  --color-base-300: #E6E6E6;
+  --color-base-content: #000000;
+  --color-primary: #C0C0C0;
+  --color-primary-content: #000000;
+  --color-secondary: #000000;
+  --color-secondary-content: #FFFFFF;
+  --color-accent: #FF007F;
+  --color-accent-content: #FFFFFF;
+  --color-neutral: #808080;
+  --color-neutral-content: oklch(98% 0.102 247.839);
+  --color-info: #3ABFF8;
+  --color-info-content: #606066;
+  --color-success: #36D399;
+  --color-success-content: #A0A0A0;
+  --color-warning: #FBBF24;
+  --color-warning-content: oklch(0.9% 0.368 0);
+  --color-error: #F87272;
+  --color-error-content: oklch(33.4% 0.113 360);
+  --radius-selector: 1rem;
+  --radius-field: 1rem;
+  --radius-box: 1rem;
+  --size-selector: 0.28125rem;
+  --size-field: 0.3125rem;
+  --border: 1.5px;
+  --depth: 1;
+  --noise: 1;
+}
+
+
